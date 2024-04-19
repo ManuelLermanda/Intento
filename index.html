@@ -11,7 +11,7 @@
     <!-- titulo -->
     <header class="hero">
         <div>
-            <h1 class="titulo">El Narval (Monodon Monoceros)</h1>
+            <h1 class="titulo" style="color: blue;">El Narval (Monodon Monoceros)</h1>
         </div>
     </header>
     <div>
@@ -20,8 +20,8 @@
     </div>
     <!-- menu -->
     <div class="indice">
-        <h4>Indice</h4>
-        <ul>
+        <h4 id="indice">Indice</h4>
+        <ul style="list-style-type: none;">
             <li class="card"><a href="#caracteristicas">Caracteristicas del Narval</a></li>
             <li class="card"><a href="#habitat">Donde vive el Narval</a></li>
             <li class="card"><a href="#comportamiento">Comportamiento del Narval</a></li>
@@ -30,7 +30,7 @@
     </div>
     <!-- caracteristicas -->
     <div>
-        <h1 class="titulo" id="caracteristicas" class="boton:hover">Caracteristicas del Narval</h1>
+        <h1 class="titulo" id="caracteristicas">Caracteristicas del Narval</h1>
         <div>
             Esas son las principales características del Narval:
             <ul>
@@ -52,7 +52,7 @@
     <!-- comportamiento -->
     <div>
         <h1 class="titulo">Comportamiento del Narval</h1>
-        <p>El narval es un animal que vive en manadas. Durante el invierno pueden formar grupos de varios centenares, pero en el verano los grupos se reducen a unos 10 individuos. Todavía no se sabe a ciencia cierta la función de su colmillo, pero lo que actualmente consideran los científicos como más probable es que tiene funciones sociales que forman parte de las disputas entre machos y que, además, sirve para aturdir a las presas que luego capturan fácilmente.</p>
+        <p id="p">El narval es un animal que vive en manadas. Durante el invierno pueden formar grupos de varios centenares, pero en el verano los grupos se reducen a unos 10 individuos. Todavía no se sabe a ciencia cierta la función de su colmillo, pero lo que actualmente consideran los científicos como más probable es que tiene funciones sociales que forman parte de las disputas entre machos y que, además, sirve para aturdir a las presas que luego capturan fácilmente.</p>
         <video src="Our Planet _ Narwhals _ Clip _ Netflix.mp4" controls>/video>
     </div>
     <!-- que come -->
@@ -75,7 +75,7 @@
             <article>
                 <div>
                     <h3>Vuelve al indice</h3>
-                    <a href="#indice">Haz clic aquí</a>
+                    <h6 class="boton"><a href="#indice">Haz clic aquí</a></h6>
                 </div>
             </article>
         </div>
@@ -89,6 +89,13 @@
         </div>
     </section>
     
+    <div>
+        <form>
+            <label for="nombre">Ingrese su nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <input type="submit">
+        </form>
+    </div>
 
 
 </body>
