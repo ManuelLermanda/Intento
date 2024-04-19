@@ -32,3 +32,28 @@
 #p{
     text-align:justify;
 }
+
+.card{
+    box-shadow: 0 0 15px black;
+    width: 30%;
+    height: 30%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.card:hover{
+    color: red;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    padding: 90px;
+}
+
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
